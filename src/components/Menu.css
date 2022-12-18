@@ -1,0 +1,20 @@
+
+ul {
+    display: flex;
+    gap: 40px;
+}
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    color: #8C8C8C;
+}
+
+ul li a:hover {
+    color: #1946BA;
+    font-weight: 700;
+}

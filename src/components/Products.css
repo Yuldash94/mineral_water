@@ -1,0 +1,40 @@
+.products_inner {
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0 5rem;
+}
+
+.products_inner > h1 {
+    font-size: 72px;
+    color: #1946BA;
+    align-self: flex-start;
+}
+.products {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.product > img {
+    height: 270px;
+}
+
+.product > p {
+    font-size: 16px;
+    color: #000000;
+}
+
+.products_inner > button {
+    width: 260px;
+    height: 40px;
+    align-self: center;
+    background: #1946BA;
+    box-shadow: 0px 15px 30px rgba(25, 70, 186, 0.2); 
+    border: none;  
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+}

@@ -1,0 +1,81 @@
+.app_head {
+    width: 90%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+}
+
+.head_title h1 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #2A2A2A;
+    text-align: left;
+    width: 90%;
+}
+
+.head_title,
+.head_img {
+    width: 50%;
+}
+
+.head_img {
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: 
+      url(/public/img/decor.png) 99% 13% no-repeat , 
+      url(/public/img/decor_1.jpg) 10% 9% no-repeat , 
+      url(/public/img/decor_2.jpg) 0% 98% no-repeat ;
+    background-size: 34%, 32%, 40%;
+
+}
+
+.head_img_inner {
+    height: 480px;
+}
+
+.head_img_bottom {
+    width: 100%;
+    height: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.img_bottom_part {
+    width: 100%;
+    height: 100%;
+    background: #DEDEDE;
+}
+
+.img_bottom_part_active {
+    background: #1946BA;
+}
+
+.head_btns {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.head_btn {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #8C8C8C;
+    cursor: pointer;
+    transition: all 500ms ease;
+}
+
+.head_btn:hover {
+    transform: scale(1.1);
+}
+
+.head_btn_active {
+    background: #DEDEDE;
+}

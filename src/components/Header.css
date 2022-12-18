@@ -1,0 +1,45 @@
+header {
+    width: 90%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding: 0 5rem;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 700;
+    width: 10rem;
+}
+
+.call {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.call a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    color: #2A2A2A;
+}
+
+.call_btn {
+    height: 20px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;    
+    background: #1946BA;
+    padding: 10px 15px;
+    box-shadow: 0px 15px 30px #1946ba33;
+    cursor: pointer;
+    transition: transform 500ms ease;
+}
+
+.call_btn:hover {
+    transform: scale(1.1);
+}
